@@ -1,0 +1,171 @@
+
+
+#omne img{
+float: left;
+padding-left:2%;
+width: 20%;
+height: 32%;
+}
+
+body{ 
+    box-sizing: border-box;   
+    padding: 0px;
+    margin: auto;
+font-family: 'Roboto', sans-serif; 
+background-image:url(pozadi.png); 
+background-repeat: no-repeat;
+background-size: 100%
+
+}
+
+header img {
+  float: left;
+  margin-left: 1%;
+  top: 3.5%;
+  position: relative;
+  max-width: 55px;
+  max-height: 55px;
+  border: white 2px solid;
+  border-radius: 30px;
+animation: animace 1s;
+
+}
+
+@keyframes animace{
+    0% {transform: rotate(0deg);}
+    100%{ transform:rotate(360deg); }
+}
+
+
+@media(min-width:1366px){
+
+}header ul li{
+    -moz-display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+    box-sizing: border-box;
+display:inline-block;
+padding: 0% 4% 0% 3%;
+color: black;
+min-height: 10px;
+float: right;
+margin-top: 1.75%;
+color: white;
+
+}
+
+header a{
+     text-decoration: none;
+    color: white;
+}
+header a :hover{
+font-size: 20px;
+
+} 
+
+
+header{
+
+    position: sticky;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.9);  
+    height: 64px;
+    margin-top: -16px;
+}
+body section{
+    
+    box-sizing: border-box;
+    min-height: 2px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+    color: white;
+    background-color: rgba(0,180,255,0.6);
+    padding: 1% 1.5% 1% 1.5%;
+    font-size: 3em; 
+    
+}
+ body section a{
+text-decoration: none;
+color: white;
+}
+#omne span{
+    
+    margin-top: 4%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#nadpis{
+    font-size: 3em;
+    margin-top: 32%;
+    text-align: center;
+}
+
+.klikni a {
+    color: black;
+    text-decoration: none;
+   
+}    
+
+
+
+#omne span{
+    
+    margin-top: 4%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*Prizpůsobení na určitou šířku */
+@media (min-width:270px){
+    body section{
+        font-size: 2.2em;
+        
+        min-width: 260px;
+    }
+}
+@media(max-width: 491px){
+    
+      
+    body section{
+        background-color: rgba(0,180,255,0.6);
+    }
+}
+
+@media(min-width:360px){
+    body section{
+        margin-top: 10%;
+    }
+
+}
+
+@media(max-width:370px){
+    body section{
+        margin-top: 5%;
+    }
+
+}
+
+@media(min-width:750px){
+    body section{
+        margin-top: 16%;
+    }
+
+}
+
